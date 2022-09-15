@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;900&display=swap" rel="stylesheet">
+        
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>NLW Esports</title>
+
+        <link rel="stylesheet" href="./styles.css">
+
+    </head>
+    <body>
+        
+        <!--
+
+imagem que tinha do meu rosto pega do github
+
+        <header>
+            <div>
+                <img 
+                src="https://github.com/fredneutzling.png" 
+                alt="Foto de rosto do Frederico Neutzling">
+            </div>
+        </header> -->
+
+        <main>
+
+            <section>
+                <div>
+                    <h2>Meus jogos</h2>
+                    <p>Os jogos que mais gosto!</p>
+
+                    <ul class="games-list">
+                        <li>
+                            <a 
+                            target="_blank"
+                            href="https://www.twitch.tv/directory/game/World%20of%20Warcraft">
+                                <img src="https://static-cdn.jtvnw.net/ttv-boxart/18122-188x250.jpg" alt="Imagem do jogo World of Warcraft">
+                            </a>
+                        </li>
+
+                        <li>
+                            <a 
+                            target="_blank"
+                            href="https://www.twitch.tv/directory/game/Dead%20by%20Daylight">
+                                <img src="https://static-cdn.jtvnw.net/ttv-boxart/491487-188x250.jpg" alt="Imagem do jogo Dead By Daylight">
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a 
+                            target="_blank"
+                            href="https://www.twitch.tv/directory/game/Apex%20Legends">
+                                <img src="https://static-cdn.jtvnw.net/ttv-boxart/511224-188x250.jpg" alt="Imagem do jogo Apex Legends">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <section>
+                <div>
+                    <h2>Canais e Streamers</h2>
+                    <p>Lista de canais e transmissões que não perco!</p>
+
+                    <ul class="channel-list">
+                        <li>
+                            <a 
+                            target="_blank"
+                            href="https://www.twitch.tv/alemaozitcho">
+                                <img src="https://static-cdn.jtvnw.net/jtv_user_pictures/f9bb1a13-c68c-4949-a551-99268910f093-profile_image-150x150.png" 
+                                alt="Imagem do canal do Alemaozitcho">
+                            </a>
+                        </li>
+
+                        <li>
+                            <a 
+                            target="_blank"
+                            href="https://www.twitch.tv/cohhcarnage">
+                                <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBYVFBgVFRUYGRgYGRoYGhoYGBkYHBgcGhgZHBwYGhocIS4lHR8rIRgaJjgmKy8xNTU1GiQ7QDs0Py40NTEBDAwMEA8QHxISHzQrIyw0NjQ0NDY0NTU0MTQ0NDQxNDY0NDQ0NDQ0NjQ0NDY0NDQ0NDE0NDQ0NDQ0NTQ0NDQ0NP/AABEIAOEA4QMBIgACEQEDEQH/xAAbAAEAAgMBAQAAAAAAAAAAAAAABAUBAwYCB//EAEAQAAIBAgMEBwcBBwMDBQAAAAECAAMRBCExBRJBUQYiMmFxgZETQlJyobHB0SMkMzRi4fAUksIHFbJDU2OCov/EABkBAQEBAQEBAAAAAAAAAAAAAAACAQMEBf/EACkRAAICAQQBAwMFAQAAAAAAAAABAhExAxIhQVEEImFxgbETMjORoeH/2gAMAwEAAhEDEQA/APksREg9oiIgCIiAIiIAiIgN0ImxKLNopkmls120HoCftFoxW8IhRL7D9F675BHv8hH3ksdDa/Gm/qP1izefj+zlonUnodX/APaf1H6yNiOiddNUfyXe+0WOfj+zn4k+vsiomRBB5MCv3kV8O66qYtGcrKNUREGppiIiAIiIAiIgCIiAIiIAiIgCIiAIiIAmZso0SxynU7L6OAL7Ss3s01ue03yrBjZzuGwDuQLHPQAXJ8AJ0+F6JbgD13Skv9Zu58FEmNtdaQ3MMgQaF2F3bz4SoquzneYlieJNzFBJ9f8AS2Wrg6XYpvVYW6zndXyUfmG6Q1QLU1SmOSIv5vKiWGyNltXYi+6i5u50UfrBrSy+TbhMTisQ+4juzNwBsB3nkJDxXtEdkdjvKSD1icxrOt2Vt+jTr08LhUBDvu1KjDNsicvTwnM7e/ma3zt9zCdja06ariyF7Zvib1Ms1GKSgK6u/syStwxNiOY4SpnXYDb5wmCpHcWoju6uDraw04esN0Gm2lFWynTpDW0cq4tazopv4m15k4zDVP4uHKH4qTW//JytJm09mUqyf6jCG623np8UvnkNeeU5yMivsyfX6MpVF8PUR/6G6j+mhnNY/ZD02KspBHBhY+XOW4NsxrLOhtliu5WUVU0s3aX5WijGn3z+ThSLazE7TG7ASspfDMWtmabWDr4fEJyeJwrISCNP8ziwmR4mZiDRERAEREAREQBERAERMwBJWDwbOwABN8gALk+EYPCl2AAuSQAOZPCdgXTApuLZsSw6zaimD7o79IJbGHwlLCKC4D1rXFP3U5FuZkHF4x6rbzsTyHAdwHCQjULEliSTmSdTNgMGpdvJ7iYEl4HBNVJAsABck6eEFNpK2acPRLuEGpNvDmT3Cb9sbT6v+mom1NT1mGtRrZse698prqVPZU2+N7oP6VHaPnpKic5y6PVoaSfuf2LXoqf3yh8//EyTtz+Yq/O33Mi9GD+90fn/AOJknbR/eKvzt9zN08Eep/kX0IUs9qt+40B/8lT7CVksdq/yVD56n4lSwRpfyL6lTsvaL4dw6Gx4jgw+Ey22kqOBiKQsjnrL8D8R4Gc9LDZOJ3WKN2HG6e4+605xlTo9OvpbluWV/oiTF2a5Rn+EkEcTbUiQ51PEmng9UqjIQykgjiDaWjvTxQ3am6lXhUt1X7n/AFlRPJMGNWV21dlvRYqy2I+o5g8RK2dvh8UldBQrmxGVOpxQ/C3NdJzO1tnPRco4sR6HkRzEEp0VsTJmIKEREAREQBERAE20adzPCi86HYOERQ1ep2KeZv7ze6nraDJMmUmXBUQ5A9u4/Zqc9xfjI55yhFYsSzG5JuSeJmraGPatUaoxzJyHwjgomtGgRVcvJYo83o0g03klGgom0ELsFHH/AC82Y/aO7anSNkUgkjV2HEnlNPtdxCR2n6o7lHaP4kCc5S6R6dDSUvdL7Fhth95lcaOgI7jxF+Ocr5OUb+HPOm3nut+LiQ6dNmIVQSToBmZDyemFRVeCw6Nn96o/P/xMlbZP7xU+dvvMbOwD0cXQV7XYhhY3ysdY2v8Ax6nzt950hg8fqGnNNeCJJ+1f5Oh89T7CQJM2p/K0fnf8SpYJ0v5EUcActeEmY7Zr0rFhcEA3Gdri4vymNloC9zogLnO2k4VzR79y22uSfjdqOlVNxuwoUi9wx968YxVYCqnZbUfC3KUzuWJY6k39ZL2dWsxQ9lxu+De6fWdIy5PPq6CUU45X+mSZ4YzL5Gx4TU7ToeQw7S1wtYYlBQc/tE/hseI+AmUjvI5qlSGUkEZgjhBMlZqxeHKMQRYjhy7pGnUbRAxNEYhR11slUDgeD+c5p1tBkWeIiIKEREAxExPSDODLJOFpFiABc8BzJ0EuOktcU1TCockAeoR7znh5ZT10cphC1d+zSQv4t7onP16zO7OxuzEk+JhE5Z4ntWmu8yDBZLpvJdNpX0syANTOiTDoqqhF3Ubxtx5rAt9Ii4tutujRQF/JPjc/SaIY3N4nnbtn1YR2xSJuyRvOU4OrKbmwGRIJ7gRMVsQEU06el+s/Fz3cl7pjsUv6qn0UfrIk3CJUVKTfR0iC9fCNqN0LrxG9fORdq/xn+dvvN+AP8rnkHe/drI+0T+1f5j952ifPn+6vF/kjSZiwPY0NP4h+41kOWG5vJhweNQ+HCJYEXUk/qatt49lxLFDbcCpa2RAGhB1Ej1Cgou9O4LkKyahBqc+ROkj7Uq79Z25sfpl+J4wNUK9m7LdVh3Hj5TlfJ7VCoJrpL7keAZsxFIo5U8DNck7p2rJeKe5DfEAfPQ/USGzywwZTd3nHVU5d5PCQdqUdx8uy2anuneLtHyprbJroiu8ju0y7zSxmkWWvR/HCnV3X/h1BuOO46HyNpr2vgzTqMh4G1+Y90+krDOjxbe3w1Or76fsqnkOoT5QyXk52YnpxnPEFJmYmIg0TbQW5mmS8IlyJrJLnaD+zwSIMjWcsflS4H1nOS66U1f2q0wTamir5kXJ+olJMJjizMXmIvBVllshOuXOiC/nwkr2h3t6+d7yPs/Km3MsB5AXm6c5vmj3elgtrk+zdiF0caN9DxE8Uae8wGnM8hzm3DNcFDo2Y7mGnrpMDqoebG3kNZHyd7aW3vozjkYMATcAAKRxHCR5JLb6f1J9V/tNuA2Y9TPsrzP4mtW+CVNRj73VFjsS25T5it4e7NW0/4z/OfvN2BwjU2F8wrhh3ggiWuBwt2d2UdZ7i/Aa5ZzrFOj5utqR3uS5RzUs0PUw55O578hOgqoj3Xd1BAy0y56ylNLc9kDnbfJy0us2SJhqKTOZxD7zs3NifUzxJ77JqBd/dyzNuIGt7TRhFG9vN2VzP4E4U+z6ynHb7XdG/aFDIMT1rDeHLkZBRSSANSbCSErlnJb38j+PTKKY3FZj2jdU7uDNNdN2TFuMaeejziW0QaLl4niZ4xHXokcUzHynWa57onMgi4YEH0/tEZe4nW009NrxyUzNPN5gzE7HzrM3l30bfe9rRP/qISvzJci0o5M2TX3K9N72s4B8CbH6EwS8HjEpYmR5bbbo7tV1tbrGw7jmPoZUTUamZiYiDbMS22Ol6iD+tfuJUy96Pfxk8fxDJshbdqFsRUJ+Mj0yH2lfN2MqbzuebH7zTNMWBPSAk2AuTpPMm7IX9pf4AW9NPqZhpLoUmRAGFjc5Ge5I9sHyfyblNVSmV7wdCNDOEuXaPqaPsioyz+Tdh8IzqxXhoOcxiqpbdJy6v1ub/AGkh6hpogU2Y9c/pNgRa5DdlgLMBx7xK2qqWTk9SSlvl+3mvgr6DlWDDgRflbjOsok+7yvK3C7PC3B6yngRpbmZLNQv1E6o4ve3kDOkIuOTw+q1o6rW3olPikXtEluQ/zKam2k47FPLv1nvD4UKMkueesuMPsnEON9KLkadm1/WW2keQqae0XAu9IkWzN5vpbRpvYEWbgGFreektq2yMSqnepOFGvVv46SmxOEU3DLnxtkR+YTTBIDDle546Ccx0gcFyqqBbrOV0J4XlgGakQGbeQ6Z3KiMfhC6XUqu8QDlqPKROLa4PT6aahNNnLiSsVvO5sL2F8uAtcmb8Tsl0z3lI48LDnGHxqq9lHVY2YnVr5DynJRriR9KWruqWnzVldPVLtDxH3nutRIcoBcg8JsCKna6z8uA8ZKR1lNVxzeCjxdBkYllIDFrX45yPL3aTl6JJ1RgfJsrCUU7p2rR8qUXGTTyhPSNYg8iD6TzEomzoOkGbh/jRG9VH6SgMv9rm6U2501+mUoG1k9hYRiIiUbZgS92B/FTx/Eoby42Q9nQ/1L9TMZK5KzErZ3HJj95rkra62r1B/WZEmmJmZO2Ses/eh/8AJT+JAm/BVN1x35Z98x4Kg6kn8ltPdOoRlqDqDoZ5CnkZuTCORcKcp51fR9mUoVy0ZxzXc9wC+g/vJuyaihSujE6ytr9o3v5+E3YFCWHK8uL9x5vUJfoVfRfMTuhVPWc27wOcm4PAEsqIpZjYAcCZWsN5iAdFAHfxnef9OMAWqPVfPcUAces3H0BnaTpWfGR0/R7oymHUMwD1DmScwvco0850E81HCgscgASfAT5ptzpZUqvu0nKpcgBciRzM4pOTKPpspdu9HqeIUmwV+DDK/c1tZxWy+kVeiwJcunFGNzbmJ3lPb2HKhvaqtxezGxHiIcZRB8l2phDSZ0caXU+Ug7PqgdRr21XwPCdn0+ehUZHSorEgq+6b6W3Sf84TiHTrKy87eU7RdqzDdjt003DWA4c/MzlJbbaVr5mwI0J1tKicdR2z63oY1Bu8k/GVyLFciygkjXS1u7SQJvdCwWwJsM/UmaCJDbbPTpKKVI8Yg/s38B95Tyx2i9kA+I38N39d76SsvO0P2nzfUyvVZ6vMEzF4GeXOWcbOg2pklMcqa/XOULamXu2TYqvFURT4hZQsc5Kyb0hExEoyzEn4F7WP+ZSvknCtMeDIvkm9Ik/bb/B1Vvpb8Sql3tVd6gj6lGKHwOY/SUwSaY+OCVszAms4QMF4kngO4cTOzTY9EJuBRkLk5XNuN5zHR6kTV3hooufCdbTFk9qwL3yp0xlcg2LE62mpENmhKSlbKrNbIlb3Nj9pISuvIg5A3yz9JOTCYlwrFwg+AWUeVhf6zxjfbUi3tiHp2vYgXAGoVgPvNqiXJvJQdIEJdGBG6AQzWv3gZamS6IGvKbMaiDIG9Kqt1J+x5ESNVZqSHLeCj/7eJmJK7Nc5OKj0jecQVY8dL5cO7vn0j/ppi1b2qA3NlYeAuD9xPmFCqrKGOh/OdzOl6IbaFDEBr9QjcfhZTbhxsZk1cSUfWNtUC+HqKupU2+/CfF2ujaEEcDl9CJ90RgQCDcHMd85jbfQylXYup3HNy1s1YnjbhOUJJZKaPnKYkjrNrbRQPKdDg+idetTVwVCuN4BmII8RaXWzOgqqwNZ98A9lQQCORJ/E7NVAFgLAfSVKfgyj5Ft/o8+GVWcqd8kAISTla5075zJQ3v38TOu/6gbbFWtuJcrSuo0sXOp8MrTixULEk2sNLc5cW2uQydUoh+0L35C4HjKCphrv1RdN/dyOhBzBBzzlnhNoIxKdY7uttJEqVm37au5sLe6L29YcUzpDWlBNJ5J5dEyuB3f2mqo6NkbZ24fD38ptp4VKbBGHtahzOZ3Vyz01k1kq7pL0UKcglifPWa0mQpyTtMpl2VTc3azcABoBr+ZQ7Y2SaR3lN0PqvcZ1nslIJpqVcXLU73vz3f7yk6SuTTTkWz7jbKZVFbnJ2zmZvwNPfqIvNlHlfOaJabBTrM/wIT5nIQabdsVLux7/ALZfiU15MxrayFMRUnzRmJiJpInuk1jNcQZZ0WziHV6Z99cvmGkplQ727xvbzkjBVyCCNfyJI2vT661V0fM9zDUTF4Kl5LbCYD2CMSbswsfDlOmwNBTiNTanTUheA6oPnmbznlx1OogUOu9ujInO/KWWHxhUpVVbnJKgBzyFgbciAJ0RxZ6rYhnbeJ1z8JZ7Oqe0R6T5jdJF/dIkRsKjnepuhU/EQpHcbzNSulFCgdWdxu3GYUdxGpzgEBm/YOGWwSqu5llmpuR4zxiqg3CGIG+tvMiMQSKS0ma7s2+/cBcIO42zlBj65L3U6ZDLlxmN0bGO50ixwtPcUJwtYyXhWCm7eXeMs5X0cUrLdjYiZp4pGNifC+XpFmuLWT6L0b6bGiAj9dBwz318L6id3gukmGqi61VBtezdUj1ynwmjU3TvC5Gmgv5ibHxRyYnIcDl95D00zLPu2L6QYamLtWTwU7x+k4vpB04LqyUVKrbNj2j4cpwuJxqstkKniSouRI/tnAII14tll4axHTSFnt8YXyK56jv8Zpcm26O85czxmmpiVXK9rnxP9hMtWVRvXvytx7pYpkfY6bgcHtb2YPhJuyLb9Wqcyi3A8cgfKUpr7z7zWBOhzy7hbjLTYz3d6ZGVRCt+/UA8BnMTKlFp8lthGNKlvjN3JAJ4DnNSY1wb75v4xhCHT2Ojocg2V+YngYR723Gv4fmaQS8VV6qV1ybes4HEjj6XkDamC3w6XsGIZeNri8l1AGCUEYEg7zkWIB/sLzXVqLvM17LewubZDIQEcNjMK1Nt1tfuOctKK+zw4HvOd4+A7ImMYgrYmwPVFt46iwzM1bSxO8xPAZAcgMgJDO0PJW4l7maoY3mJpLdmYmIgCIiAbaFSxl3hWDoabe9oeTcDOfkzC1pj8lxd8M8VKZViDkVP24zodkYp2XfBsR1TyYd4kPFUvbJvL21GY+Ic/GQsDjzTuLXB1HGUmc5Rrg6gvTIzRlJ13CPpfSZOIVQPZp1hezPYlb8hpeUGL2xdbICCeJ4eEqqmJc6seWs2yKOyoU7XcnM5sTxnM43FIKj7ma3yP3tI1TH1GXcLHd/zWRLzHyVFuPKLIY5OTfT9ZsGIQ2630MqLxMpFfqM7RCCBukHwmjGY4JYE3Nr27py1Oqym6kjwitVZjdjcyiDptn7R9oTbqn0J9JMPMm/eZx1CuyHeU2MzVxLt2mJgFpUxKbxu3E8DNTY1dMyO7+8qpmTSOi1Gie2NF+qDL7D0gURkbO179/E+M5KS8Fj3pdk5HUHSbRMpOWTr/wDVK4/ako+Q9ovHxHObjWyF8TddLC5J8px3/dahNy187/28JO2dtmxtUtbmBpBNHQVKiIrlFIWxLue0w1sOQnJY/GGo19F0VeQlntHbSOrIoJ3gRc5aiRNm4YAe0cZDsj4jz8IbNiuiRTT2NO3vvm3cOCyoxNS5t6yVjcQSSSZXEyVzydZcKkIiJpAiIgCIiAJlWsbzEQCyweJIIIMkY/CBwalMZ++g4f1DulOjWMscJiiCCDMwXxJU8lcTNZMvMVg1q9ZLK/FeDd475SuhUkEWI4GanZzkmnTPERE0kREQBERAEREAREQBERAF5kTEtsHs0AB6uQ4Lxbx5CDUm8HjZ+C3uu+SD1c8hN+NxV+4DIAaAchGMxd+4DIAaAchKupUuZOTrxFfJh2uZ5iJpAiIgCIiAYiIgCIiAJlWI0mIgE7D4mWDOlUWqDPgw7Q8ecoZup1yNZleC1JNVIk4rZbr1l6681/I1Erpb4fGkZg+n6SS5pVO2gB+JOqfMcYvyS4eDn4lvU2PfsVFPc3VP95Dq7PqrqjeQuPUSiGmskSJ6KEag+k8wYIiZCk6CAYiSKWEqN2UY342NvXSTKex299lTuJufQQak2Vcl4XAO+YFl4scgJZJRo09F3zzfT/bPGIxxOpy4DQDwEnd4LUH2bKVOnRzHXb4joPlEiYrFkm5OcjVMQTp6zRFXkrclwjLuTPMRNIEREAREQBERAEREAREQBERAEREAAzalYiaogJk1MXJVLaBGjfWVETKRSmy+G0Se1Y9xUGP9YvwJ/sEogxmd884o3cvBef6xfgT/AGCP+4W7IVfBQJR755zBY84pjcvBb1NosdWPrb7SK+L75BiKG99G565M1E3mImkN2IiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgwREQaIiIAiIgCIiAIiIAiIgCIiAIiIAiIgH/9k=" 
+                                alt="Imagem do canal Cohhcarnage">
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a 
+                            target="_blank"
+                            href="https://www.twitch.tv/sodapoppin">
+                                <img src="https://ih1.redbubble.net/image.2072772398.9584/st,small,507x507-pad,600x600,f8f8f8.jpg" 
+                                alt="Imagem do canala sodapoppin">
+                            </a>
+                        </li>
+
+                        <li>
+                            <a 
+                            target="_blank"
+                            href="https://www.twitch.tv/distortion2">
+                                <img src="https://static-cdn.jtvnw.net/jtv_user_pictures/distortion2-profile_image-bb052bec695cc197-150x150.png" 
+                                alt="Imagem do canal do Distortion2">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <section>
+                <div>
+                    <h2>Minhas Redes</h2>
+                    <p>Se conecte comigo agora mesmo!</p>
+
+                    <ul class="social-list">
+                        <li>
+                            <a 
+                            target="_blank"
+                            href="https://www.twitch.tv/siuver">
+                                <svg width="33" height="32" viewBox="0 0 33 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M21.2824 25H15.8426C15.6011 25.0001 15.3678 25.0844 15.1852 25.2375L9.28125 30V25H6.1875C5.914 25 5.65169 24.8946 5.4583 24.7071C5.2649 24.5196 5.15625 24.2652 5.15625 24V6C5.15625 5.73478 5.2649 5.48043 5.4583 5.29289C5.65169 5.10536 5.914 5 6.1875 5H26.8125C27.086 5 27.3483 5.10536 27.5417 5.29289C27.7351 5.48043 27.8438 5.73478 27.8438 6V19.5375C27.8417 19.6832 27.8072 19.8267 27.7427 19.9583C27.6782 20.0899 27.5851 20.2065 27.4699 20.3L21.9398 24.7625C21.7572 24.9156 21.5239 24.9999 21.2824 25V25Z" stroke="#9A35FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M21.6562 11V17" stroke="#9A35FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M15.4688 11V17" stroke="#9A35FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                
+                            </a>
+                        </li>
+
+                        <li>
+                            <a 
+                            target="_blank"
+                            href="https://twitter.com/takeonewithme">
+                                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M16 11C16 8.25003 18.3125 5.96253 21.0625 6.00003C22.0256 6.01115 22.9649 6.30018 23.7676 6.83237C24.5704 7.36457 25.2023 8.11728 25.5875 9.00003H30L25.9625 13.0375C25.7019 17.0932 23.9066 20.8975 20.9415 23.6769C17.9764 26.4562 14.0641 28.002 10 28C6 28 5 26.5 5 26.5C5 26.5 9 25 11 22C11 22 3 18 5 7.00003C5 7.00003 10 12 16 13V11Z" stroke="#2871FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>                                
+                                
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a 
+                            target="_blank"
+                            href="https://www.instagram.com/fredineu/">
+                                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M16 21C18.7614 21 21 18.7614 21 16C21 13.2386 18.7614 11 16 11C13.2386 11 11 13.2386 11 16C11 18.7614 13.2386 21 16 21Z" stroke="#FA41FE" stroke-width="2" stroke-miterlimit="10"/>
+                                    <path d="M21.5 4.5H10.5C7.18629 4.5 4.5 7.18629 4.5 10.5V21.5C4.5 24.8137 7.18629 27.5 10.5 27.5H21.5C24.8137 27.5 27.5 24.8137 27.5 21.5V10.5C27.5 7.18629 24.8137 4.5 21.5 4.5Z" stroke="#FA41FE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M22.5 11C23.3284 11 24 10.3284 24 9.5C24 8.67157 23.3284 8 22.5 8C21.6716 8 21 8.67157 21 9.5C21 10.3284 21.6716 11 22.5 11Z" fill="#FA41FE"/>
+                                    </svg>
+                                
+                            </a>
+                        </li>
+
+                        <li>
+                            <a 
+                            target="_blank"
+                            href="https://www.youtube.com/channel/UCzhECTQDpVK5Mq5rT-pvgXQ">
+                                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M20 16L14 12V20L20 16Z" stroke="#F40000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M3 16C3 19.725 3.3875 21.9 3.675 23.025C3.75427 23.3302 3.90418 23.6126 4.11262 23.8493C4.32106 24.0859 4.58221 24.2703 4.875 24.3875C9.0625 25.9875 16 25.95 16 25.95C16 25.95 22.9375 25.9875 27.125 24.3875C27.4178 24.2703 27.6789 24.0859 27.8874 23.8493C28.0958 23.6126 28.2457 23.3302 28.325 23.025C28.6125 21.9 29 19.725 29 16C29 12.275 28.6125 10.1 28.325 8.975C28.2457 8.66975 28.0958 8.38741 27.8874 8.15074C27.6789 7.91407 27.4178 7.7297 27.125 7.6125C22.9375 6.0125 16 6.05 16 6.05C16 6.05 9.0625 6.0125 4.875 7.6125C4.58221 7.7297 4.32106 7.91407 4.11262 8.15074C3.90418 8.38741 3.75427 8.66975 3.675 8.975C3.3875 10.1 3 12.275 3 16Z" stroke="#F40000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+        </main>
+
+    </body>
+</html>
